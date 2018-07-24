@@ -13,5 +13,7 @@
 
 Route::get('/', function () {
 	return view('insurance');
-    //return view('welcome');
+});
+Route::get('add-insurance', function () {
+	return view('add-insurance');
 });
